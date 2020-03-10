@@ -1,4 +1,4 @@
-#include "../include/matrix.hpp"
+#include "matrix.hpp"
 
 // Constructor
 Matrix::Matrix(int m, int n){

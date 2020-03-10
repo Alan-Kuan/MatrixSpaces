@@ -1,4 +1,4 @@
-#include "../include/fraction.hpp"
+#include "fraction.hpp"
 
 static int gcd(int a, int b){
 

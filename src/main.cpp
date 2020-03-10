@@ -1,9 +1,9 @@
 #include <iostream>
 #include <fstream>
-#include "../include/fraction.hpp"
-#include "../include/matrix.hpp"
-#include "../include/elimination.hpp"
-#include "../include/spaces.hpp"
+#include "fraction.hpp"
+#include "matrix.hpp"
+#include "elimination.hpp"
+#include "spaces.hpp"
 
 using namespace std;
 

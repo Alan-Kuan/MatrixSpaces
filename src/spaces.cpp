@@ -1,4 +1,4 @@
-#include "../include/spaces.hpp"
+#include "spaces.hpp"
 
 
 static void get_pivot_cols(Matrix &rref, int pivot_cols[], int &pivot_num){

@@ -1,4 +1,4 @@
-#include "../include/elimination.hpp"
+#include "elimination.hpp"
 
 // Row Operation of sum
 static void row_sum(Matrix &M, Fraction scalar, int from, int to){
