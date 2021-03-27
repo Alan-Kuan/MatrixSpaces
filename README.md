@@ -37,3 +37,6 @@ Then execute "run" with the text file's name as an argument.
 ```bash
 ./run [FILE]
 ```
+
+## License
+This tool was published under the MIT License.
