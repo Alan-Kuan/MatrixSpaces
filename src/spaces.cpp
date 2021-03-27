@@ -97,8 +97,8 @@ Matrix column_space(const Matrix &M){
 Matrix row_space(const Matrix &M){
 
 	Matrix MT(M.transpose());
-   
-	return column_space(MT);
+
+	return eliminate(column_space(MT).transpose());
 
 }
 
