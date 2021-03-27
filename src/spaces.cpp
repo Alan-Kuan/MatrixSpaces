@@ -88,7 +88,7 @@ Matrix column_space(const Matrix &M){
 	
 	for(int idx = 0; idx < pivot_num; idx++)
 		for(int i = 0; i < C.row_size; i++)
-			C[i][idx] = rref[i][pivot_cols[idx]];
+			C[i][idx] = M[i][pivot_cols[idx]];
 	
 	return C;
 
